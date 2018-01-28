@@ -4,7 +4,7 @@
 public class Nine {
    public int JumpFloorII(int target) {
         if (target <= 0) {
-            return -1;
+            return 0;
         } else if (target == 1) {
             return 1;
         } else {
