@@ -27,7 +27,7 @@ public class Twelve {
         }else {
             double result=powwiththis(base,exponent>>1);
             result*=result;
-            if(exponent%2==1){//&0x1
+            if(exponent%2==1){//&0x1==> (exponent&1)¾ÍÊÇmod 2
                 result*=base;
             }
             return result;
